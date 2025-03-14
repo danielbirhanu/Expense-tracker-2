@@ -1,8 +1,10 @@
-
+import ExpenseTracker from "./components/ExpenseTracker"
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <ExpenseTracker />
+    </div>
   )
 }
 
